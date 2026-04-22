@@ -1,0 +1,23 @@
+# Artifacts and txData
+artifacts/
+txData/
+
+# FiveM Runtime
+server-data/cache/
+server-data/logs/
+server-data/.replxx_history
+*.log
+
+# Sensitive Files
+server-data/secrets.cfg
+server-data/database.sql  # If you keep a local backup
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+thumbs.db
+
+# Node/TypeScript (If you use them for NUI or TS Resources)
+node_modules/
+dist/
